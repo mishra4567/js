@@ -35,4 +35,15 @@ const thirdNumber=10000000;
 */
 
 // console.log(Math);
-console.log(Math.abs(-4));
+// console.log(Math.abs(-4));
+// 0 or 1 value
+// Math.random()
+// 0.1,0.32424=0 or 1 or etc
+// Math.floor()
+
+const min =10
+const max =20
+
+forthNumber=Math.random() * (max-min +1)
+fifthNumber=(Math.floor(forthNumber)+min)
+console.log(fifthNumber);
