@@ -35,3 +35,5 @@ const newStringOne ="      pritam     "
 const url="https://pritam.com/iushhhgj%20hjjhjhjh";
 
 console.log(url.replace('%20','_'));
+console.log(url.includes('pritam'));
+console.log(gameName.split());
