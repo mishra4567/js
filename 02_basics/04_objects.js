@@ -50,8 +50,46 @@ console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
 */
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
-console.log(tinderUser.hasOwnProperty('isLogged'));
 
+// console.log(tinderUser.hasOwnProperty('isLogged'));
+
+//de-structure
+const course={
+    courseName:"ihjkhkjh",
+    price:"656",
+    courseInstructor:"ujgjhjg",
+}
+// course.courseInstructor
+/*
+const {courseInstructor}=course
+console.log(courseInstructor);
+*/
+/*
+const {courseInstructor:instructor}=course
+console.log(instructor);
+*/
+/*
+//in react
+const navbar =({company})=>{
+}
+navbar(company="uyjghjg")
+*/
+// api 
+//jsone {}
+/*
+{
+    name:"uyjghj",
+    courseName:"khjkmhbkm",
+    price:"free",
+}
+*/
+/*
+[
+    {},
+    {},
+    {}
+]
+*/
 
 
 
