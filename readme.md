@@ -1,3 +1,17 @@
 # full javascript
 24.07.2024
 14:-destructure and json
+19:- Functions and parameter
+create 3 list
+when list no2 click then dropdown new  3 list
+when list no3 clisk then no2 close and dropdown new 3 list
+27.07.2024
+20:- function with objects and array
+29.07.2024
+21:- Global and local scope
+22:- scope level and mini hoisting
+30.07.2024
+23:- This and Arrow function
+24:- Immeediately Invoked Function Expressions (IIFE)
+25:- how does javascript execute code call stack / javascript execution context 
+26:- control flow in javascript in 1 shot
