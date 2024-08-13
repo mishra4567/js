@@ -18,3 +18,4 @@ when list no3 clisk then no2 close and dropdown new 3 list
 27:- For loop with break and continue 
 28:- While and do While loop 
 29:- High Order array loops
+30:- Filter map and reduce
