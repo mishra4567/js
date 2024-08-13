@@ -14,5 +14,7 @@ when list no3 clisk then no2 close and dropdown new 3 list
 24:- Immeediately Invoked Function Expressions (IIFE)
 25:- how does javascript execute code call stack / javascript execution context 
 26:- control flow in javascript in 1 shot:- one.js, switch.js, truthy.js,
+12.08.2024
 27:- For loop with break and continue 
 28:- While and do While loop 
+29:- High Order array loops
