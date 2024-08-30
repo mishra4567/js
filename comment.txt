@@ -26,3 +26,4 @@ when list no3 clisk then no2 close and dropdown new 3 list
 29.08.2024
 30.08.2024
 33:- How to create a new element in DOM
+34:- Edit and remove element in DOM
