@@ -19,3 +19,10 @@ when list no3 clisk then no2 close and dropdown new 3 list
 28:- While and do While loop 
 29:- High Order array loops
 30:- Filter map and reduce
+13.08.2024
+31:- DOM introduction     ||DOM = document object model
+28.08.2024
+32:- All DOM selectors nodelist and HTML Collection
+29.08.2024
+30.08.2024
+33:- How to create a new element in DOM
