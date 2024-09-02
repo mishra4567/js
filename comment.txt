@@ -28,7 +28,8 @@ when list no3 clisk then no2 close and dropdown new 3 list
 33:- How to create a new element in DOM
 34:- Edit and remove element in DOM
 *************** Project ************************
-35:- Color Chenger
-36:- BMI Calculator
-37:- Digital Clock
-38:- Guess The Number
+35:- Project:-
+1:-- Color Chenger
+2:-- BMI Calculator
+3:-- Digital Clock
+4:-- Guess The Number
