@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event</title>
+  </head>
+  <body>
+    <h1>pritam</h1>
+    <button id="stop">Stop</button>
+    <script>
+      /*
+       setTimeout(function () {
+         console.log("pritam");
+       }, 2000);
+       */
+      /*
+      const sayPritam = function () {
+        console.log("pritam");
+      };
+      setTimeout(sayPritam, 2000);
+      */
+      /*
+      const sayPritam = function () {
+        console.log("pritam");
+      };
+      document.querySelector("h1").innerHTML = "noob pritam";
+      setTimeout(sayPritam, 2000);
+      */
+      /*
+      const sayPritam = function () {
+        console.log("pritam");
+      };
+      const chengeText = function () {
+        document.querySelector("h1").innerHTML = "noob pritam";
+      };
+      const changeMe = setTimeout(chengeText, 5000);
+      */
+      const sayPritam = function () {
+        console.log("pritam");
+      };
+      const chengeText = function () {
+        document.querySelector("h1").innerHTML = "noob pritam";
+      };
+      const changeMe = setTimeout(chengeText, 5000);
+      document.querySelector("#stop").addEventListener("click", function () {
+        clearTimeout(changeMe);
+        console.log("stop");
+      });
+    </script>
+  </body>
+</html>

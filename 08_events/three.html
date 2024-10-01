@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event</title>
+  </head>
+  <body>
+    <h1>pritam</h1>
+    <button id="start">start</button>
+    <button id="stop">Stop</button>
+    <script>
+      /*
+      setInterval(function(){
+        console.log('hi',Date.now());
+      },1000)
+      */
+      /*
+     const sayDate=function(){
+      console.log("pritam",Date.now());
+     }
+     setInterval(sayDate,1000)
+     */
+      /*
+      const sayDate = function (str) {
+        console.log(str, Date.now());
+      };
+      setInterval(sayDate, 1000,"hi");
+      */
+      /*
+      const sayDate = function (str) {
+        console.log(str, Date.now());
+      };
+      const intervalId=setInterval(sayDate, 1000, "hi");
+      clearInterval(intervalId)
+      */
+      /*
+      const sayDate = function (str) {
+        console.log(str, Date.now());
+      };
+      document.querySelector("#start").addEventListener("click",function(){
+        setInterval(intervalId);
+        console.log("start");
+      })
+      document.querySelector("#stop").addEventListener("click",function(){
+      clearInterval(intervalId);
+      console.log("end");
+      
+      })
+      */
+
+      let intervalId;
+
+      const sayDate = function (str) {
+        console.log(str, Date.now());
+      };
+
+      document.querySelector("#start").addEventListener("click", function () {
+        intervalId = setInterval(
+          () => sayDate("Current Date and Time: "),
+          1000
+        ); // Call the function every 1 second
+        console.log("start");
+      });
+
+      document.querySelector("#stop").addEventListener("click", function () {
+        clearInterval(intervalId); // Clear the interval when the stop button is clicked
+        console.log("end");
+      });
+    </script>
+  </body>
+</html>

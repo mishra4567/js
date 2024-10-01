@@ -33,3 +33,17 @@ when list no3 clisk then no2 close and dropdown new 3 list
 2:-- BMI Calculator
 3:-- Digital Clock
 4:-- Guess The Number
+*************** Project ************************
+36:- Events in javascript
+11.09.2024
+36:- Events in javascript
+21.09.2024
+37:- Async javascript fundamentals
+38:-2 Project with Async
+****************Project**********************
+1:-- Press the key and watch magic
+2:-- Start should change the Background color every second
+24.09.2024
+39:- API request and V8 engine
+40:- Promise in javascript
+41,42
